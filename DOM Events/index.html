@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+</head>
+<body>
+    <h1>DOM Events !!!</h1>
+
+    <button onclick="console.log('Clicked');">Click Me</button>
+    <br>
+    <button onclick="document.body.style.backgroundColor='Yellow'">Make Yellow</button>
+    <br>
+    <button onclick="makeRed()">Make Red</button>
+
+    <script src="JS Styles/style.js"></script>
+    <script>
+        function makeRed(){
+            document.body.style.backgroundColor='red';            
+        }
+    </script>
+</body>
+</html>
